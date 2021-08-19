@@ -1,0 +1,10 @@
+package com.ahmedwagdy.imagesearchapp.ui.gallery
+
+import androidx.hilt.lifecycle.ViewModelInject
+import androidx.lifecycle.ViewModel
+import com.ahmedwagdy.imagesearchapp.data.UnsplashRepository
+
+class GalleryViewModel @ViewModelInject constructor(
+    private val repository: UnsplashRepository
+) : ViewModel() {
+}
