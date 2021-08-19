@@ -3,14 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    tools:context="com.ahmedwagdy.imagesearchapp.ui.gallery.GalleryFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:LayoutManger="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:listitem="@layout/item_unsplash_photo" />
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:context=".ui.gallery.GalleryFragment"
+        tools:listitem="@layout/item_unsplash_photo"/>
 
     <ProgressBar
         android:id="@+id/progress_bar"

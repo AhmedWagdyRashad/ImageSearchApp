@@ -1,4 +1,4 @@
-package com.ahmedwagdy.imagesearchapp
+package com.ahmedwagdy.imagesearchapp.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
